@@ -14,24 +14,88 @@
     <link rel="stylesheet" href="assets/css/site.css">
     <script src="assets/js/site.js" defer></script>
 </head>
+<style>
+    body{
+        background-color: black;
+    }
+    h1{
+        color: #eee;
+        font-family: sans-serif;
+        font-size: 36px;
+        font-weight: 600;
+        margin-top: 30px;
+        text-align: center;
+    }
+    h2{color: #eee;
+        font-family: sans-serif;
+        font-size: 36px;
+        font-weight: 600;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .wellcome{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        gap:1rem;
+        /* background-color: #15172b; */
+        width: 94vw;
+        
+    }
+    input{
+        width:400px;
+        height: 30px;
+        border-radius: 5px;
+        border-color: lightblue ;
+        background-color: #d4d7d9 ;
+        font-size: 15px;
+        }  
+  button{
+        background-color: blue;
+        width: 400px;
+        height: 30px;
+        border-radius: 5px;
+        border-color: lightblue ;
+        font-size: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        color: aliceblue;
+  }
+ 
+ 
+    
+ 
+</style>
 
 <body>
 
-
     <section id="tilMeld">
+<<<<<<< HEAD
+        <form id="myForm" action="#" method="post" >
+            <h1>Welcome</h1>
+            <h2>Fill the form:</h2>
+            <div class="wellcome">
+              <input id="name" type="text" placeholder="Fornavn">
+              <input id="surname" type="text" placeholder="Efternavn">
+              <input id="adress" type="text" placeholder="Adress">
+              <input id="post"  type="number" placeholder="Postnummer">
+              <input id="email" type="text" placeholder="E-mail">
+            <div class="btn">
+                <button id="submitButton" >Sign in</button>
+            </div>  
+            </div>
+=======
         <form>
             <input id="name" type="text" placeholder="dit navn">
             <input id="email" type="text" placeholder="din email">
+            <input id="zipCode" type="text" placeholder="dit postnr">
+
             <button id="submitButton">tilmeld dig her</button>
 
+>>>>>>> 0be4b1e6f61b7656c01df19a02f77c0cfb10da89
         </form>
-
-
-
     </section>
-
-
-
 </body>
 
 </html>

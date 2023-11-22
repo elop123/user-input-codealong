@@ -3,4 +3,5 @@ body {
 
 .errorMarking {
   border: 2px solid red;
+  transition: 1s;
 }
