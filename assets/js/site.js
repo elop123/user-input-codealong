@@ -32,7 +32,8 @@ myButton.addEventListener('click', (event) =>  {
     
 
 
-    if (myTrimmedName.length >1 && myTrimmeSurname.length >1 && myTrimmeAdress.length >4 && validatePostNumber(myPostElement.value) && validateEmail(myEmailElement.value))
+    if (myTrimmedName.length >1 && myTrimmeSurname.length >1 && myTrimmeAdress.length >4 
+      && validatePostNumber(myPostElement.value) && validateEmail(myEmailElement.value))
 
     {
         console.log('The form was correctly filled!');
